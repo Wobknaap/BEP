@@ -1,0 +1,90 @@
+
+
+
+
+\documentclass[a4paper]{article}
+\usepackage{longtable}
+\usepackage{a4wide}
+\usepackage[round]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{enumitem}
+
+\newcommand{\instructions}[1]{{\tt #1}}
+
+\newif\ifdev
+\devtrue % comment to remove instructions
+
+\title{Research Proposal - Bachelor End Project:}
+\author{Wob Knaap 1490621}
+\date{Date}
+
+\ifdev
+\renewcommand{\subsubsection}[1]{\textbf{#1}}
+\else
+\renewcommand{\instructions}[1]{}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+
+\paragraph{Research problem:}
+
+\paragraph{Relevance:}
+
+\paragraph{Significance:}
+
+\section{Related work}
+\label{sec:related-work}
+
+
+
+\section{Research questions}
+\label{sec:research-questions}
+
+
+
+
+
+\section{Methodology}
+
+
+
+
+
+
+
+\section{Expected outcomes}
+
+
+
+\section{Research plan}
+
+\begin{small}
+\begin{longtable}{|p{5cm}|p{14cm}|}
+\hline
+\hline
+\endfirsthead
+\hline
+\hline
+\endhead
+\hline
+\endfoot
+
+
+
+\end{longtable}
+\end{small}
+
+\FloatBarrier
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
